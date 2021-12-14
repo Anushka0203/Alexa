@@ -12,8 +12,6 @@ engine.setProperty('voice',voices[1].id)
 
 def talk(text):
     engine.say(text)
-   #engine.say('Hey! I am Alexa!')
-   #engine.say('What would you like to know from me?')
     engine.runAndWait()
 
 def take_command():
